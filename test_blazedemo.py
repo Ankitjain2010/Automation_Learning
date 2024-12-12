@@ -1,6 +1,5 @@
 import time
 
-import allure
 from selenium.webdriver.support import expected_conditions as EC
 
 from selenium import webdriver
@@ -16,7 +15,6 @@ import pytest
 
 
 @pytest.fixture()
-#@allure.feature("Additional")
 def test_verifyURL():
     global driver
     options=webdriver.ChromeOptions()
