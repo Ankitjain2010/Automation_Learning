@@ -1,22 +1,13 @@
-import time
 
-import allure
-from selenium.webdriver.support import expected_conditions as EC
 
 from selenium import webdriver
-from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.support.ui import Select
-from selenium.webdriver.support.wait import WebDriverWait
-
-from webdriver_manager.chrome import ChromeDriverManager
-
 import pytest
 
 
 @pytest.fixture()
-#@allure.feature("Additional")
+
 def test_verifyURL():
     global driver
     options=webdriver.ChromeOptions()
