@@ -1,0 +1,19 @@
+{
+    "test_case": [
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+            "username": "Admin",
+            "password": "admin123"
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+            "username": "admin",
+            "password": "pass2"
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+            "username": "user3",
+            "password": "pass3"
+        }
+    ]
+}
