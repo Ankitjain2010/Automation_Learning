@@ -16,7 +16,7 @@ import pytest
 
 
 @pytest.fixture()
-@allure.feature("Additional")
+#@allure.feature("Additional")
 def test_verifyURL():
     global driver
     options=webdriver.ChromeOptions()
